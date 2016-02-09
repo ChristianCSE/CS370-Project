@@ -1,7 +1,7 @@
 # CS370-Project
 This is our project repository.
 
-<pre>
+<p>
 
 <h1>Completed</h1>
 <blockquote>
@@ -27,6 +27,6 @@ Image based on location, but also have default.
 Stuff
 </blockquote>
 
-</pre>
+</p>
 
 
