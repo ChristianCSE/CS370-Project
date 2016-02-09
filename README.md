@@ -15,14 +15,12 @@ Stuff
 Stuff
 </blockquote>
 
-
 <h3>On Hold: Backlog</h3>
 <hr>
 <blockquote>
 Stuff
 Image based on location, but also have default. 
 </blockquote>
-
 
 <h4>Sprint 1</h4>
 <hr>
