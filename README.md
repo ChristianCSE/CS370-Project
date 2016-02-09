@@ -2,7 +2,6 @@
 This is our project repository.
 
 <p>
-
 <h1>Completed</h1>
 <hr>
 <blockquote>
