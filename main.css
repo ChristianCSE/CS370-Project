@@ -1,0 +1,15 @@
+.vertical-center {
+    margin-top: 15%;
+}
+
+.btn-social {
+  text-align: center;
+}
+
+.jumbotron {
+  background: transparent;
+}
+
+body {
+  background: url(bg.jpg) no-repeat center center scroll;
+}
