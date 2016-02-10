@@ -11,7 +11,9 @@ Stuff
 <h3>Currently Working On</h3>
 
 <blockquote>
-Stuff
+Login buttons
+Web Security
+Moving background for login screen
 </blockquote>
 
 <h3>On Hold: Backlog</h3>
@@ -24,7 +26,7 @@ Image based on location, but also have default.
 <h4>Sprint 1</h4>
 
 <blockquote>
-Stuff
+Created basic login screen with background and three possible login buttons
 </blockquote>
 
 </p>
