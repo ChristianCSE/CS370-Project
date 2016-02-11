@@ -5,7 +5,7 @@ This is our project repository.
 <h1>Completed</h1>
 
 <blockquote>
-Stuff
+https://docs.google.com/presentation/d/1E4g8mYuep0cvgpH-BNF_sw4XbQV82anec14Sovdhkyc/edit#slide=id.ga93b10926_040
 </blockquote>
 
 <h3>Currently Working On</h3>
