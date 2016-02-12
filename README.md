@@ -1,5 +1,9 @@
 # CS370-Project
 This is our project repository.
+<p>
+Taylor Core, Paul Lee, Alex Lutz,  Nahom Ogbazghi, Chris Oh, Christian Sanchez
+
+</p>
 
 <p>
 <h1>Completed</h1>
