@@ -1,8 +1,7 @@
 # CS370-Project
-This is our project repository.
+This repository belongs to: 
 <p>
 Taylor Core, Paul Lee, Alex Lutz,  Nahom Ogbazghi, Chris Oh, Christian Sanchez
-
 </p>
 
 <p>
