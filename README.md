@@ -7,6 +7,9 @@ This repository belongs to: <p>Taylor Core, Paul Lee, Alex Lutz,  Nahom Ogbazghi
 <blockquote>
 https://docs.google.com/presentation/d/1vRekAaBZIjJxf6wE9Tpgyqu7h4d92G4WsVqKVkfXyEM/edit
 </blockquote>
+<blockquote>
+https://drive.google.com/open?id=0B0BVTPM_yW5jZUZla3hxcWMzTEE
+<blockquote>
 
 <h3>Currently Working On</h3>
 
