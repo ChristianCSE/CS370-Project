@@ -12,10 +12,44 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="sidetable">
+    <table class="Utility">
+        <tr class="info">
+            <th><a href="index.html">Home Page</a></th>
+            <th><a href="loggedin.html">My Profile</a></th>
+            <th>Financials</th>
+            <th>About Us</th>
+            <th>Contact Us</th>
+        </tr>
+    </table>
+</div>
+
 
 <div class="container bg">
+  <p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
   <div class="jumbotron vertical-center">
-    <h1><center>Roomie</center></h1>
+    <h1><center class="roomie">Roomie</center></h1>
     <br><br>
     <div class="row">
       <div class="col-sm-offset-3 col-sm-2">
@@ -37,5 +71,29 @@
   </div>
 </div>
 
+<!-- -->
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
 </body>
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+    if (navigator.geolocation) {
+    	console.log("asdf");
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude; 
+}
+$(document).on('click', '#getGeolocation', function(){
+	getLocation();
+});
+</script>
 </html>
