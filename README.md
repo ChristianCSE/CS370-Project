@@ -6,11 +6,10 @@ This repository belongs to: <p>Taylor Core, Paul Lee, Alex Lutz,  Nahom Ogbazghi
 
 <blockquote>
 https://docs.google.com/presentation/d/1vRekAaBZIjJxf6wE9Tpgyqu7h4d92G4WsVqKVkfXyEM/edit
-<br>
-https://drive.google.com/file/d/0B0BVTPM_yW5jZUZla3hxcWMzTEE/view?usp=sharing
 </blockquote>
 <blockquote>
 https://drive.google.com/open?id=0B0BVTPM_yW5jZUZla3hxcWMzTEE
+https://docs.google.com/presentation/d/1scstWHzAa-KKpObavpyCofeP0EJc6rerCIk5FGxu4Q8/edit#slide=id.g100ff93979_0_11
 </blockquote>
 
 <h3>Currently Working On</h3>
