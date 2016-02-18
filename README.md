@@ -5,13 +5,15 @@ This repository belongs to: <p>Taylor Core, Paul Lee, Alex Lutz,  Nahom Ogbazghi
 <h1>Completed</h1>
 
 <blockquote>
+<p></p>
+<p>First Sprint</p>
 https://docs.google.com/presentation/d/1vRekAaBZIjJxf6wE9Tpgyqu7h4d92G4WsVqKVkfXyEM/edit
-<br>
+<p></p>
+
+<p>Second Sprint</p>
 https://docs.google.com/presentation/d/1scstWHzAa-KKpObavpyCofeP0EJc6rerCIk5FGxu4Q8/edit#slide=id.g100ff93979_0_11
 </blockquote>
-<blockquote>
-https://drive.google.com/open?id=0B0BVTPM_yW5jZUZla3hxcWMzTEE
-</blockquote>
+
 
 <h3>Currently Working On</h3>
 
