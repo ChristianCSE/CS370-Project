@@ -18,6 +18,17 @@
 
 </head>
 
+<script type="text/javascript">
+var options = [
+               {selector: '#staggered-test', offset: 10, callback: 'Materialize.toast("This is our ScrollFire Demo!", 1500 )' },
+               {selector: '#staggered-test', offset: 25, callback: 'Materialize.toast("Please continue scrolling!", 1500 )' },
+               <!-- {selector: '#staggered-test', offset: 400, callback: 'Materialize.showStaggeredList("#staggered-test")' },
+               {selector: '#image-test', offset: 500, callback: 'Materialize.fadeInImage("#image-test")' }-->
+             ];
+Materialize.scrollFire(options);
+                 
+
+}</script>
 <body>
 
 	<!-- Navigation -->
