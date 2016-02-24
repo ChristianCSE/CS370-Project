@@ -24,30 +24,6 @@
     </table>
 </div>
 
-
-<div class="container bg">
-  <p>Click the button to get your coordinates.</p>
-
-<button onclick="getLocation()">Try It</button>
-
-<p id="demo"></p>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-
-function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude +
-    "<br>Longitude: " + position.coords.longitude;
-}
-</script>
   <div class="jumbotron vertical-center">
     <h1><center class="roomie">Roomie</center></h1>
     <br><br>
@@ -58,20 +34,19 @@ function showPosition(position) {
         </a>
       </div>
       <div class="col-sm-2">
-        <a class="btn btn-block btn-social btn-success">
+        <a href="../login/login.html" class="btn btn-block btn-social btn-success">
               <span class="fa fa-sign-in"></span> Login
         </a>
       </div>
       <div class="col-sm-2">
-        <a class="btn btn-block btn-social btn-warning">
+        <a class="btn btn-block btn-social btn-warning" href="../signup/signup.html">
               <span class="fa fa-user-plus"></span> Sign up
         </a>
       </div>
     </div>
   </div>
-</div>
 
-<!-- -->
+<!-- Geo Location -->
 <p>Click the button to get your coordinates.</p>
 
 <button onclick="getLocation()">Try It</button>
