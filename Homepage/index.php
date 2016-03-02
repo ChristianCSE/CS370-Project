@@ -75,7 +75,7 @@ if (isset($accessToken)) {
 } else {
 	// replace your website URL same as added in the developers.facebook.com/apps e.g. if you used http instead of https and you used non-www version or www version of your website then you must add the same here
 	$loginUrl = $helper->getLoginUrl('http://roomieit.com/', $permissions);
-  $_SESSION['loginUrl'] = $loginUrl;
+  // $_SESSION['loginUrl'] = $loginUrl;
   // echo $loginUrl;
 	// echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
 }
@@ -121,38 +121,56 @@ if (isset($accessToken)) {
     if (isset($_SESSION['logged_in'])) {
       echo "<h2><center>You are logged in as: " . $profile['name'] . "</center></h2>";
     } else {
-      echo "<aside class='col-sm-4'>";
-      echo "<a href='" . $_SESSION['loginUrl'] ."' class='center-block btn btn-block btn-social btn-facebook'>";
-      echo "<span class='fa fa-facebook'></span> FB Login";
-      echo "</a>";
-      echo "</aside>";
-      echo "<aside class='col-sm-4'>";
-      echo "<a class='center-block btn btn-block btn-social btn-success'>";
-      echo "<span class='fa fa-sign-in'></span> Login";
-      echo "</a>";
-      echo "</aside>";
-      echo "<aside class='col-sm-4'>";
-      echo "<a class='center-block btn btn-block btn-social btn-warning'>";
-      echo "<span class='fa fa-user-plus'></span> Sign up";
-      echo "</a>";
-      echo "</aside>";
+    ?>
+    <aside class="col-sm-4">
+      <a href="<?php echo $loginUrl; ?>"
+        class="center-block btn btn-block btn-social btn-facebook"> <span
+        class="fa fa-facebook"></span> FB Login
+      </a>
+    </aside>
+    <aside class="col-sm-4">
+      <a class="center-block btn btn-block btn-social btn-success"
+        data-toggle="modal" data-target="#myModal"> <span
+        class="fa fa-sign-in"></span> Login
+      </a>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <form class="form-signin" action="phpscripts/login.php" method="POST">
+                <h2 class="modal-title">Please sign in</h2>
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" id="inputEmail" class="form-control"
+                  placeholder="Email address" name="email" required autofocus> <label
+                  for="inputPassword" class="sr-only">Password</label> <input
+                  type="password" id="inputPassword" class="form-control"
+                  name="password" placeholder="Password" required>
+                <div class="checkbox">
+                  <!-- <label> <input type="checkbox" value="remember-me">
+                    Remember me
+                  </label> -->
+                </div>
+                <input type="submit" value="Submit" class="btn btn-default">
+                <!-- <a href="" class="btn btn-default">Sign In</a> -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+    <aside class="col-sm-4">
+      <a class="center-block btn btn-block btn-social btn-warning"> <span
+        class="fa fa-user-plus"></span> Sign up
+      </a>
+    </aside>
+    <?php
     }
     ?>
-    <!-- <aside class="col-sm-4">
-        <a href="test.php"  class="center-block btn btn-block btn-social btn-facebook">
-              <span class="fa fa-facebook"></span> FB Login
-        </a>
-    </aside>
-    <aside class="col-sm-4">
-        <a class="center-block btn btn-block btn-social btn-success">
-              <span class="fa fa-sign-in"></span> Login
-        </a>
-    </aside>
-    <aside class="col-sm-4">
-        <a class="center-block btn btn-block btn-social btn-warning">
-              <span class="fa fa-user-plus"></span> Sign up
-        </a>
-    </aside> -->
     </div>
   </div>
 </div>
