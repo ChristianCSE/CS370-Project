@@ -34,16 +34,9 @@ Moving background for login screen
 </blockquote>
 
 <h3>On Hold: Backlog</h3>
-
 <blockquote>
-Stuff
+Algorithm 
 Image based on location, but also have default. 
-</blockquote>
-
-<h4>Sprint 1</h4>
-
-<blockquote>
-Created basic login screen with background and three possible login buttons
 </blockquote>
 
 </p>
