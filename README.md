@@ -31,7 +31,6 @@ https://docs.google.com/presentation/d/1zjv8TwAtRlRf0XXugkcplV9k6CcB69VlqCBNOCr1
 <h3>Currently Working On</h3>
 
 <blockquote>
-Login buttons
 Web Security
 Moving background for login screen
 </blockquote>
