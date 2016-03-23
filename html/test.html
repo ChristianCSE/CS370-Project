@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>My Now Amazing Webpage</title>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <style>
+      .test {
+        /*width: 50%;
+        height: 50%;
+        padding-left: 50px;
+        padding-right: 50px;*/
+      }
+    </style>
+  </head>
+  <body>
+
+  <div class="test slider">
+    <div>your content1</div>
+    <div>your content2</div>
+    <div>your content3</div>
+  </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.test').slick({
+        accessibility: true,
+        autoplay: true,
+        dots: true
+      });
+    });
+  </script>
+
+  </body>
+</html>

@@ -1,5 +1,7 @@
-var slide = new carddeckslideshow({
-	id: 'slide',
-	autoplay: false,
-	persist: false
-})
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true
+  });
+});

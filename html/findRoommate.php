@@ -1,71 +1,42 @@
 <?php require_once __DIR__ . '/templates/header.php' ?>
 
 <!-- Page Content -->
-<div class="container" align="center">
-  <div class="stackcontainer" id="slide">
-    <div class="inner" align="center">
-      <div class="row">
-        <h1>Christian Sanchez</h1>
-        <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-          <div class="col-xs-2 col-xs-offset-1">
-            <a href="javascript:slide.navigate('prev')">
-              <span style="font-size:4.5em;" class="glyphicon glyphicon-arrow-left"></span>
-            </a>
-          </div>
-          <div class="col-xs-6">
-            <p>Location: Atlanta, GA</p>
-            <p>Availability: immediate</p>
-            <p>Email: christian@example.com | Phone #: 123-456-7890</p>
-          </div>
-          <div class="col-xs-2">
-            <a href="javascript:slide.navigate('next')">
-              <span style="font-size:4.5em;" class="glyphicon glyphicon-arrow-right"></span>
-            </a>
-          </div>
-      </div>
-    </div>
-    <div class="inner" align="center">
-      <div class="row">
-        <h1>Paul Lee</h1>
-        <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-          <div class="col-xs-2 col-xs-offset-1">
-            <a href="javascript:slide.navigate('prev')">
-              <span style="font-size:4.5em;" class="glyphicon glyphicon-arrow-left"></span>
-            </a>
-          </div>
-          <div class="col-xs-6">
-            <p>Location: Atlanta, GA</p>
-            <p>Availability: After May 2016</p>
-            <p>Email: paul@example.com | Phone #: 123-456-7890</p>
-          </div>
-          <div class="col-xs-2">
-            <a href="javascript:slide.navigate('next')">
-              <span style="font-size:4.5em;" class="glyphicon glyphicon-arrow-right"></span>
-            </a>
-          </div>
-      </div>
-    </div>
-    <div class="inner" align="center">
-      <div class="row">
-        <h1>Taylor Core</h1>
-        <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-          <div class="col-xs-2 col-xs-offset-1">
-            <a href="javascript:slide.navigate('prev')">
-              <span style="font-size:4.5em;" class="glyphicon glyphicon-arrow-left"></span>
-            </a>
-          </div>
-          <div class="col-xs-6">
-            <p>Location: Atlanta, GA</p>
-            <p>Availability: immediate</p>
-            <p>Email: taylor@example.com | Phone #: 123-456-7890</p>
-          </div>
-          <div class="col-xs-2">
-            <a href="javascript:slide.navigate('next')">
-              <span style="font-size:4.5em;" class="glyphicon glyphicon-arrow-right"></span>
-            </a>
-          </div>
-      </div>
-    </div>
+<div class="owl-carousel owl-theme owl-loaded">
+  <div class="owl-item">
+    <h4>Christian Sanchez</h4>
+    <img class="img-responsive portfolio-item" src="images/christian.jpg" style="height:300px; width:500px;">
+    <p>Match Rating: 10</p>
+    <p>Age: 9001</p>
+  </div>
+  <div class="owl-item">
+    <h4>Paul Lee</h4>
+    <img class="img-responsive portfolio-item" src="images/paul_lee.jpg" style="height:300px; width:500px;">
+    <p>Match Rating: 9</p>
+    <p>Age: 21</p>
+  </div>
+  <div class="owl-item">
+    <h4>Chris Oh</h4>
+    <img class="img-responsive portfolio-item" src="images/chris_oh.jpg" style="height:300px; width:500px;">
+    <p>Match Rating: 9</p>
+    <p>Age: 22</p>
+  </div>
+  <div class="owl-item">
+    <h4>Taylor Core</h4>
+    <img class="img-responsive portfolio-item" src="images/taylor_core.jpg" style="height:300px; width:500px;">
+    <p>Match Rating: 7</p>
+    <p>Age: 23</p>
+  </div>
+  <div class="owl-item">
+    <h4>Anon</h4>
+    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" style="height:300px; width:500px;">
+    <p>Match Rating: 5</p>
+    <p>Age: 25</p>
+  </div>
+  <div class="owl-item">
+    <h4>Anon #2</h4>
+    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" style="height:300px; width:500px;">
+    <p>Match Rating: 5</p>
+    <p>Age: 32</p>
   </div>
 </div>
 

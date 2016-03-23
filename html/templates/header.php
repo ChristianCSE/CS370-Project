@@ -10,13 +10,31 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Roomie: Profile Page</title>
+    <title>Roomie</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+
+    <!-- Owl Carousel Theme -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- owl carousel JS -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
 
 </head>
 
