@@ -8,6 +8,7 @@ public class SparseVector
 {
 	private int[] indices;
 	
+	//this converts a dense vector to a sparse vector
 	public SparseVector(int[] vector)
 	{
 		int mover = 0;
