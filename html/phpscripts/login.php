@@ -8,7 +8,7 @@ $password = $_POST['password'];
 require_once __DIR__ . '/dbconnect.php';
 
 // check if user name exists
-$sql = "SELECT email, password FROM users WHERE email=" . "'$email'";
+$sql = "SELECT * FROM users WHERE email=" . "'$email'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -21,6 +21,7 @@ if ($result->num_rows > 0) {
     } else {
       session_start();
       $_SESSION['logged_in'] = true;
+      $_SESSION['user_id'] = $row['user_id'];
       header('Location: /profile.php');
     }
 

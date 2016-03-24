@@ -39,7 +39,7 @@ require_once __DIR__ . '/phpscripts/fblogin.php';
     <div class="row">
     <?php
     if ($_SESSION['logged_in'] == true) {
-      echo "<h2><center>You are logged in as: " . $profile['name'] . "</center></h2>";
+      // echo "<h2><center>You are logged in as: " . $profile['name'] . "</center></h2>";
     } else {
     ?>
     <aside class="col-sm-4">
