@@ -40,7 +40,7 @@ https://docs.google.com/presentation/d/1Va6ddZ70gH74RmKqwWU9CaU1JbFgYzbBApJnzTMA
 
 <blockquote>
 Web Security
-Moving background for login screen
+Moving background for login screen.
 </blockquote>
 
 <h3>On Hold: Backlog</h3>
