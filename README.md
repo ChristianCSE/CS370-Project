@@ -1,4 +1,4 @@
-# CS370-Project
+# CS370-Project:roomieit.com
 This repository belongs to: <p>Taylor Core, Paul Lee, Alex Lutz,  Nahom Ogbazghi, Chris Oh, Christian Sanchez.</p>
 
 <p>
