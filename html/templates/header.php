@@ -3,7 +3,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,8 +11,14 @@
 
     <title>Roomie</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="HouseIcon2.ico" />
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet">
@@ -59,13 +64,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="editprofile.php">Edit Profile</a>
+                        <a href="editprofile.php"><i class="fa fa-pencil-square-o"></i> Edit Profile</a>
                     </li>
                     <li>
-                        <a href="findRoommate.php">Find Roommate</a>
+                        <a href="roommateSearch.php"><i class="fa fa-eye"></i> Find Roommate</a>
                     </li>
                     <li>
-                        <a href="phpscripts/logout.php">Log off</a>
+                        <a href="phpscripts/logout.php"><i class="fa fa-lock"></i> Log off</a>
                     </li>
                 </ul>
             </div>
