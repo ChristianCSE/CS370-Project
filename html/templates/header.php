@@ -67,7 +67,7 @@
                         <a href="editprofile.php"><i class="fa fa-pencil-square-o"></i> Edit Profile</a>
                     </li>
                     <li>
-                        <a href="findRoommate.php"><i class="fa fa-eye"></i> Find Roommate</a>
+                        <a href="roommateSearch.php"><i class="fa fa-eye"></i> Find Roommate</a>
                     </li>
                     <li>
                         <a href="phpscripts/logout.php"><i class="fa fa-lock"></i> Log off</a>
