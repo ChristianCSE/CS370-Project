@@ -40,22 +40,6 @@ https://docs.google.com/presentation/d/146gH8ClPf4d4vStSR_IM7o1R2xzaWD7COrsxOFMd
 </blockquote>
 
 
-
-
-
-<h3>Currently Working On</h3>
-
-<blockquote>
-Web Security
-Moving background for login screen.
-</blockquote>
-
-<h3>On Hold: Backlog</h3>
-<blockquote>
-Algorithm 
-Image based on location, but also have default. 
-</blockquote>
-
 </p>
 
 
