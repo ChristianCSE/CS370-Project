@@ -1,0 +1,31 @@
+/*Upload to github!!!!!*/
+
+.sidetable{
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+}
+
+.Utility{
+    border-collapse:separate;
+    border-spacing: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.roomie{
+    font-size: 100px;
+}
+
+.vertical-center {
+    margin-top: 15%;
+}
+
+.btn-social {
+  text-align: center;
+}
+
+.jumbotron {
+  background: transparent;
+}
+
